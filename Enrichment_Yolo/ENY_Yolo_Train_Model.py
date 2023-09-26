@@ -3,8 +3,6 @@
 """
 Created on Tue Jun 13 13:12:25 2023
 
-@author: cwitham
-
 Train Yolo model
 
 """
