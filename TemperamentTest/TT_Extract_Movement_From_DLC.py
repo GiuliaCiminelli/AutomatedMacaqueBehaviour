@@ -2,7 +2,6 @@
 """
 Created on Thu Jun 29 08:07:27 2023
 
-@author: c.witham
 
 Extracts movement information by phase from deeplabcut markers
 """
