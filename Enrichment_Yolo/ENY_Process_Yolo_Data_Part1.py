@@ -2,7 +2,6 @@
 """
 Created on Tue Aug 29 15:14:36 2023
 
-@author: c.witham
 
 intermediate stage of yolo output processing - extracts only the objects 
 needed for this particular analysis and combines into a single file for each day
