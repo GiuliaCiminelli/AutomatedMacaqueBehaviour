@@ -2,7 +2,6 @@
 """
 Created on Thu Mar 10 16:54:58 2022
 
-@author: c.witham
 
 Conversion code if using Argos (REF!) labeller to label images, code for a single object
 """
