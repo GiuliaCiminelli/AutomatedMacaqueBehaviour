@@ -24,7 +24,7 @@ Detailed Workflow:
 - ENY_Process_Yolo_Data_Part1: This script represents an intermediate step in processing the Yolo model output.
   It selectively extracts objects pertinent to this study (blue monkey, macaques, coloured wooden blocks, and front platform).
   The data is then consolidated into single files for each day.
-- ENY_Process_Yolo_Data_Part2, This script further analyzes the Yolo output, tallying the number and area of monkeys interacting with the enrichment.
+- ENY_Process_Yolo_Data_Part2: This script further analyzes the Yolo output, tallying the number and area of monkeys interacting with the enrichment.
   Due to suboptimal detection accuracy for wooden blocks, manual definition of regions of interest for the enrichment is performed (recorded in a CSV file).
   Each detected monkey is checked to determine if its mask (object id 18) overlaps with the region of interest.
   In cases where the enrichment is near a pole, monkeys may overlap with the region while situated on the front platform, without interacting with the enrichment.
