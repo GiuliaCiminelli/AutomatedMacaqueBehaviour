@@ -3,7 +3,6 @@
 """
 Created on Tue Aug 29 18:48:09 2023
 
-@author: cwitham
 
 To anaylse the yolo output and count the number (and area) of monkeys interacting with the enrichment
 Manually added region of interest for the enrichment (csv file)
