@@ -2,7 +2,6 @@
 """
 Created on Fri Mar 18 10:33:47 2022
 
-@author: c.witham
 
 Apply YOlACT model to CCTV camera footage to detect monkeys, save output (bounding box, mask, scores, classes) to a pickle file
 """
