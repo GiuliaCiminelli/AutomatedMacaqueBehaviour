@@ -2,7 +2,6 @@
 """
 Created on Wed Jun 14 10:33:13 2023
 
-@author: c.witham
 Converts labels from COCO format (json) to YOLO format (one text file per image)
 """
 
