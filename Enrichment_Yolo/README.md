@@ -1,5 +1,6 @@
-Enrichment_Yolo
+# **Enrichment_Yolo**
 
+## Aims
 The Enrichment_Yolo project is dedicated to analysing the utilization of an enrichment puzzle within the macaque enclosures. 
 This puzzle was introduced specifically for this study, representing a novelty to the macaques. 
 There are two variations of the puzzle: one containing blue toy monkeys and coloured wooden blocks, and another comprising solely coloured wooden blocks.
@@ -16,7 +17,7 @@ However, the Yolo-based model was trained to detect all of them.
 
 As input, this pipeline requires CCTV videos capturing macaques in their enclosure, and it outputs the amount of macaques interacting with the enrichment.
 
-Detailed Workflow:
+## Detailed Workflow
 
 - ENY_Yolo_Train_Model: This script is responsible for generating the Yolo-based model.
 - ENY_Yolo_Analyse_Vid: This script executes the Yolo model on the CCTV videos, and to manage file sizes, it separates the output into multiple files.
@@ -30,3 +31,14 @@ Detailed Workflow:
   In cases where the enrichment is near a pole, monkeys may overlap with the region while situated on the front platform, without interacting with the enrichment.
   To mitigate false positive interactions, segments overlapping with both the region of interest and the front platform bounding box (object id 10) are excluded.
 - Enrichment_Yolo: This script calculates the percentage of macaques interacting with the enrichment, utilizing the output from ENY_Process_Yolo_Data_Part2.
+
+## Credits
+ - Yolov8
+   
+   Jocher, G., Chaurasia, A., & Qiu, J. (2023). YOLO by Ultralytics (Version 8.0.0) [Computer software]. [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+
+  - Segment anything annotator
+
+    https://github.com/haochenheheda/segment-anything-annotator
+    
+     
