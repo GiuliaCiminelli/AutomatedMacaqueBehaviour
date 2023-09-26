@@ -2,7 +2,6 @@
 """
 Created on Tue Mar 15 09:21:25 2022
 
-@author: c.witham
 """
 # -*- coding: utf-8 -*-
 """
