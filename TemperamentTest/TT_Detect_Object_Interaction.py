@@ -2,7 +2,7 @@
 """
 Created on Fri Aug 18 10:47:53 2023
 
-@author: cwitham
+
 find if dlc markers are in yolact box
 Script to detect in deeplabcut markers for the monkey are inside the object bounding box from Yolact
 """
