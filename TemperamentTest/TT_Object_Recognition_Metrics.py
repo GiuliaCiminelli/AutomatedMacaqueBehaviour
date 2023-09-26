@@ -2,7 +2,6 @@
 """
 Created on Tue May 16 14:33:58 2023
 
-@author: c.witham
 Calculate object recognition accuracy for Yolact model
 """
 
