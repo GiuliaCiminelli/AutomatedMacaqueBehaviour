@@ -10,6 +10,7 @@ The model utilizes the difference in the x, y coordinates of the bounding box as
 As input, this pipeline requires CCTV videos capturing macaques in their enclosure, and it outputs the amount of item movement.
 
 Detailed Workflow:
-EN_Covert_Argos_Coco: This script translates the Argos output (REF) into a format compatible with our pipeline (ask Claire)
-EN_Analyses_Videos: Using the Yolact model, this script processes the CCTV videos, providing bounding box coordinates, masks, confidence scores, and class labels for each detection.
-Enrichment_YOLCAT: Building upon the information obtained from EN_Analyses_Videos, this script extracts the volume of item movements for different weekdays, specifically Mondays and Tuesdays.
+
+- EN_Covert_Argos_Coco: This script translates the Argos output (REF) into a format compatible with our pipeline (ask Claire)
+- EN_Analyses_Videos: Using the Yolact model, this script processes the CCTV videos, providing bounding box coordinates, masks, confidence scores, and class labels for each detection.
+- Enrichment_YOLCAT: Building upon the information obtained from EN_Analyses_Videos, this script extracts the volume of item movements for different weekdays, specifically Mondays and Tuesdays.
