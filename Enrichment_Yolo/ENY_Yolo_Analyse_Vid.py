@@ -3,7 +3,6 @@
 """
 Created on Tue Jun 13 14:38:13 2023
 
-@author: cwitham
 
 Run model on days of CCTV videos - output is pickle and labelled video files, day broken up into sections to reduce file size
 """
