@@ -22,7 +22,7 @@ The training and validation datasets underwent annotation using Argos.
 
 - FG_Analyse_Videos: This script applies the YOLO-based model to analyse CCTV camera footage for monkey detection. 
   It provides output in the form of bounding boxes, masks, scores, and class labels for each detection, which is then saved to a pickle file.
-- FG_Convert_Argos_Coco: This script translates the Argos output (REF) into a format compatible with our pipeline (ask Claire).
+- FG_Convert_Argos_Coco: This script translates the Argos output (REF) into a format compatible with our pipeline (json).
 - Foraging_ForagingMixes: This script calculates the number of detected macaques within the defined region of interest and extracts the quantity of animals foraging for each specific foraging mix.
 - Foraging_PelletSize: This script tallies the number of detected macaques within the region of interest and determines the amount of foraging activity when presented with both small and large pellet sizes.
 - Foraging_Seasons: This script counts the number of detected macaques in the region of interest and extracts the amount of animals engaged in foraging over a span of six months, 
