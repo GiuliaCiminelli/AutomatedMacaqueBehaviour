@@ -113,8 +113,8 @@ with open(newdir+"training/annotations.json", "w") as write_file:
 print(imgadd_train)
 print(annadd_train)         
 # do validation set second
-old_json=json.load(open('C://Users/c.witham/OneDrive - MRC Harwell/Giulia - PhD/Argos_giulia_TT/Annotated_img/'+objs+ '/validation/annotations.json','r'))
-new_json=json.load(open('C://Users/c.witham/OneDrive - MRC Harwell/Giulia - PhD/Argos_giulia_TT/Annotated_img/Combined/validation/annotations.json','r'))
+old_json=json.load(open('path/'+objs+ '/validation/annotations.json','r'))
+new_json=json.load(open('path/validation/annotations.json','r'))
 
 
 anno_id=[]
