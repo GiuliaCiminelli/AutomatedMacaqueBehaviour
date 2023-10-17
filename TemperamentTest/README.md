@@ -19,13 +19,13 @@ To achieve this, three models were utilized: two based on DeepLabCut (DLC) and o
 - DLC_front_camera: Trained on front camera footage, this model can detect macaque body parts used for interacting with objects (such as hands, mouth, and nose).
 - Yolact_front_camera: This model was utilized to detect six different objects.
 The last two models, DLC_front_camera and Yolact_front_camera, worked in conjunction to identify approaches to the objects.
-An approach is defined as at least three macaque body parts being within the bounding box detected by the Yolact model.
+An approach is defined as at least three macaque body parts being within the bounding box detected by the YOLACT model.
 
 ## Detailed Workflow:
 
 - TT_Convert_Argos_Coco: This script translates the Argos output (REF) into a compatible JSON format for our pipeline. Please note that this code is designed to work for one object at a time.
-- TT_Convert_Argos_Coco_Add_Object: This script was used to combined all the novel objetcs together intothe same COCO format training file (json) for training Yolact.
-- TT_Object_Recognition_Metrics: This script is used to compute the object recognition accuracy for the Yolact model.
+- TT_Convert_Argos_Coco_Add_Object: This script was used to combined all the novel objetcs together intothe same COCO format training file (json) for training YOLACT.
+- TT_Object_Recognition_Metrics: This script is used to compute the object recognition accuracy for the YOLACT model.
 - TT_Extract_Movement_From_DLC: Extracts movement information, including the amount of movement and freezing, categorized by phase, from the output of DLC_side_camera.
 - TT_Detect_Object_Interaction: This script identifies whether the macaque's body part markers from DLC_side_camera are within the bounding box of objects detected by Yolact_front_camera.
 
