@@ -1,7 +1,7 @@
-# **Enrichment_YOLACT**
+# **Enrichment_Yolact**
 
 ## Aims
-The goal of the Enrichment_YOLCAT project is to analyse the usage of a white tank containing raisins within the macaque enclosure. 
+The goal of the Enrichment_Yolact project is to analyse the usage of a white tank containing raisins within the macaque enclosure. 
 This enrichment is consistently present, with raisins added exclusively on Mondays. Our study aimed to discern usage patterns on Mondays (when the tank is full) 
 and Thursdays (when it is empty).
 
