@@ -6,7 +6,7 @@ The Automated Macaque Behavior repository contains four folders, each dedicated 
 - Enrichment_Yolo: This folder contains Python and R scripts for extracting data on the number of macaques interacting with an enrichment puzzle. The YOLO-based model is located in the 'Model' sub-folder. Additionally, there is an Excel file with group information, including size and type, which is required for the statistical analyses performed by the R script.
 
 - Foraging: This directory is subdivided into three sub-folders, each aligning with a distinct project. Every sub-folder contains Python and R scripts for extracting data on the number of macaques foraging.
-- 
+  
 - Temperament Test: Here, you will find Python scripts for extracting information from three models: two based on DeepLabCut and one based on YOLACT.
 
 Please note that the YOLACT and DeepLabCut models are available upon request.
